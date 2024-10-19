@@ -13,3 +13,8 @@ For tmux:
 ```
 ln -s ~/.dotfiles/tmux/tmux.conf ~/tmux/tmux.conf
 ```
+
+For nvim:
+```
+ln -s ~/.dotfiles/nvim/config ~/.config/nvim/lua/config
+```
