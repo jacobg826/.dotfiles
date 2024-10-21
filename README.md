@@ -24,3 +24,9 @@ For nvim:
 ```
 ln -s ~/.dotfiles/nvim/config/* ~/.config/nvim/lua/config/
 ```
+
+For kitty:
+on linux:
+```
+ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/kitt.conf
+```
