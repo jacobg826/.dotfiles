@@ -22,7 +22,7 @@ ln -s ~/.dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
 
 For nvim:
 ```
-ln -s ~/.dotfiles/nvim/config/* ~/.config/nvim/lua/config/
+ln -s ~/.dotfiles/nvim/lua/* ~/.config/nvim/lua/
 ```
 
 For kitty:

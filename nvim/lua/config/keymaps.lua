@@ -4,7 +4,7 @@
 
 -- use `vim.keymap.set` instead
 local map = vim.keymap.set
--- test
+
 -- better up/down
 map({ "n", "x" }, "j", "v:count == 0 ? 'gjzz' : 'jzz'", { desc = "Down", expr = true, silent = true })
 map({ "n", "x" }, "<Down>", "v:count == 0 ? 'gjzz' : 'jzz'", { desc = "Down", expr = true, silent = true })
@@ -15,3 +15,5 @@ map("i", "jj", "<esc>", { desc = "escape" })
 
 map({ "n", "x" }, "{", "'{zz'", { desc = "Paragraph Up", expr = true, silent = true })
 map({ "n", "x" }, "}", "'}zz'", { desc = "Paragraph Down", expr = true, silent = true })
+map({ "n", "x" }, "#", "'#zz'", { desc = "Last match of curr word", expr = true, silent = true })
+map({ "n", "x" }, "*", "'*zz'", { desc = "Next match of curr word", expr = true, silent = true })
