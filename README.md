@@ -10,12 +10,12 @@ These are the dotfiles for the tools that I use.
 2. Create symbolic links for each of the dotfiles:
 
 For tmux:
-on mac-os:
+On mac-os:
 ```
 ln -s ~/.dotfiles/tmux/tmux.conf ~/tmux/tmux.conf
 ```
 
-on linux: 
+On linux: 
 ```
 ln -s ~/.dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
 ```
@@ -26,7 +26,7 @@ ln -s ~/.dotfiles/nvim/lua/* ~/.config/nvim/lua/
 ```
 
 For kitty:
-on linux:
+On linux:
 ```
-ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/kitt.conf
+ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf
 ```

@@ -23,6 +23,26 @@ if true then return {
 			},
 		},
 	},
+  
+
+  {
+    "akinsho/toggleterm.nvim",
+    version = "*",
+    config = function()
+      require("toggleterm").setup({
+        -- Open terminal with <leader> t
+        open_mapping = [[<leader>t]],
+        -- Default direction: 'float', 'horizontal', 'vertical', or 'tab'
+        direction = "float",
+        -- Optional: Set size for horizontal/vertical splits
+        size = 20,
+      })
+    end,
+    keys = {
+      { "<leader>t", "<cmd>ToggleTerm<cr>", desc = "Toggle Terminal" },
+    },
+  },
+
 	-- Use <tab> for completion and snippets (supertab)
 	-- first: disable default <tab> and <s-tab> behavior in LuaSnip
 	{
