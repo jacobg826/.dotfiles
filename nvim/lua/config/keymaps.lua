@@ -17,3 +17,6 @@ map({ "n", "x" }, "{", "'{zz'", { desc = "Paragraph Up", expr = true, silent = t
 map({ "n", "x" }, "}", "'}zz'", { desc = "Paragraph Down", expr = true, silent = true })
 map({ "n", "x" }, "#", "'#zz'", { desc = "Last match of curr word", expr = true, silent = true })
 map({ "n", "x" }, "*", "'*zz'", { desc = "Next match of curr word", expr = true, silent = true })
+
+map({ "n" }, "H", ":bprev<CR>", { desc = "Previous Buffer", silent = true })
+map({ "n" }, "L", ":bnext<CR>", { desc = "Next Buffer", silent = true })
