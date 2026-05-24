@@ -42,4 +42,17 @@ return {
 			},
 		},
 	},
+	-- Which Key Tool
+	{
+		"folke/which-key.nvim",
+		opts = {
+			preset = "classic",
+			win = {
+				no_overlap = true,
+				padding = { 1, 2 },
+				title = true,
+				title_pos = "center",
+			},
+		},
+	},
 }
