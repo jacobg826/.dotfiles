@@ -26,6 +26,23 @@ return {
 		end,
 	},
 
+	-- Rust config
+	{
+		"mrcjkb/rustaceanvim",
+		opts = {
+			server = {
+				default_settings = {
+					["rust-analyzer"] = {
+						-- This is the "Magic Switch" to make it work on Stable Rust
+						cargo = {
+							extraArgs = { "--profile", "check" },
+						},
+					},
+				},
+			},
+		},
+	},
+
 	-- Mason: ensure these tools are always installed
 	{
 		"mason-org/mason.nvim",
