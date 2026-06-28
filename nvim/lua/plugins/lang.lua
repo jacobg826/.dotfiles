@@ -37,6 +37,9 @@ return {
 						cargo = {
 							extraArgs = { "--profile", "check" },
 						},
+						check = {
+							command = "clippy",
+						},
 					},
 				},
 			},
